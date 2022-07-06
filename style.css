@@ -1,0 +1,56 @@
+body{
+    background-color:aqua;
+    font-size:large;
+    text-align: center;
+}
+.center{
+    position:absolute;
+    top:30%;
+    left:40;
+    transform:translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+button{
+    padding: 30px 70px;
+    border:none;
+    background-color:blueviolet;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:aliceblue;
+    border-radius:50px;
+    cursor:pointer;
+    animation: animate 2s linear infinite;
+    text-align: center;
+
+}
+@keyframes animate {
+    0%{
+        background-color: brown;
+    }
+    0%{
+        background-color:red;
+    }
+    0%{
+        background-color: yellow;
+    }
+    0%{
+        background-color: green;
+    }
+    0%{
+        background-color:violet;
+    }
+    0%{
+        background-color: blue;
+    }
+}
+img{
+    top:30%;
+    left:40;
+}
